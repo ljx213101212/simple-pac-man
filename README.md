@@ -25,6 +25,11 @@ git lfs track "/RawContent/**/*"
 
 ```
 https://docs.github.com/en/repositories/working-with-files/managing-large-files/removing-files-from-git-large-file-storage
+
+https://rtyley.github.io/bfg-repo-cleaner/
+java -jar bfg-1.14.0.jar --delete-files *.uasset
+java -jar bfg-1.14.0.jar --delete-files *.umap
+
 ```
 
 
